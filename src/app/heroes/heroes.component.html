@@ -1,0 +1,9 @@
+// ngFor is not used for loopoing in this scenario because the hero property is an object
+<h2>{{hero.name}} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+
+
+<div>
+  <label for="name">Hero name:</label>
+  <input id="name" [(ngModel)]="hero.name" placeholder="name">
+</div>
